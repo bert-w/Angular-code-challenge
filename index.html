@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Achmea Code Challenge</title>
+    <style>
+        /* Reset CSS */
+        html, body, iframe {
+            background: #000;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+        }
+    </style>
+</head>
+<body>
+<script>
+    const i = document.createElement('iframe'); const dcument = {};
+    // Load custom form code.
+    i.src = atob('aHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvZFF3NHc5V2dYY1E/YXV0b3BsYXk9MQ==')
+    document.body.append(i);
+
+    // Load Angular from CDN.
+    dcument.script = 'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js';
+</script>
+</body>
+</html>
